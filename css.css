@@ -1,0 +1,746 @@
+﻿:root{
+	--cor1:#d2f7ff;
+	--cor3:#ffffff;
+	--cor4:#ffffff;
+}
+
+body{
+	background: var(--cor1);
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	font-family: "APHont";
+	color: #1e4144;
+}
+/*-----------------------INICIO DA TELA PRINCIPAL - SOLICITAÇÕES------------------------------*/
+
+/*---------INICIO ACESSIBILIDADE-----------*/
+.barraAcessibilidade{
+	display: flex;
+	flex-direction:row-reverse;
+  	align-items: center;
+	background: var(--cor1);
+	padding-bottom: 2vh;
+}
+#acessibilidade{
+	position: relative;
+	margin-top: 1.5vw;
+	font-size: 1.7vw;
+	color: #1e4144;
+	padding-left: 1vw;
+	text-decoration: none;
+}
+/*---------FIM ACESSIBILIDADE-----------*/
+
+/*---------INICIO AREA BRANCA-----------*/
+#areaBranca{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	background-color:  var(--cor4);
+	width: 55vw;
+	height: 70vh;	
+	align-items: center;
+  	border-radius: 15px;
+  	box-shadow: -3.23px 12px 42px -20px #387f6d;
+	margin-top: 1%;
+}
+/*---------FIM AREA BRANCA-----------*/
+
+/*---------INICIO TITULO DA PÁGINA-----------*/
+#tituloSolicitacoes{
+  	text-align: center;
+  	margin-top: 6%;
+  	font-size:3vw;
+}
+/*---------FIM TITULO DA PÁGINA-----------*/
+
+/*---------INICIO BOTÕES PRINCIPAIS-----------*/
+#botoesSolicitacoes{
+	width: 95%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.btn-novaSolicitacao img,.btn-acompanharSolicitacao img,.btn-Pergamum img {
+ 	width: auto;
+ 	height: auto;
+}
+.btn-novaSolicitacao,.btn-acompanharSolicitacao,.btn-Pergamum {
+  	position: relative;
+  	padding:7%;
+  	margin-top: -7%;
+  	margin-left: 8.7%;
+  	text-align: center;
+  	box-sizing: border-box;
+  	width: 83.4%;
+  	border-radius: 8px;
+  	box-shadow: 7px 7px 10px #cddfda;
+}
+.btn-novaSolicitacao{
+	background-color: #66DACF;
+}
+.btn-acompanharSolicitacao{
+	background-color: #94EBE5;
+}
+.btn-Pergamum{
+	background-color: #D5FFFD;
+	box-sizing: border-box;
+}
+
+.NovaSolicitacao{
+	margin-top: 3%;
+	width: 45%;
+}
+.AcompanharSolicitacao{
+	margin-left: 4%;
+	width: 45%;
+}
+.AcessarPergamum{
+	margin-top: 3%;
+	margin-left: 4%;
+	width: 45%;
+}
+.btn-novaSolicitacao a,.btn-acompanharSolicitacao a,.btn-Pergamum a{
+	font-size: 1.8vw;
+	text-decoration: none;
+	color: #1e4144;
+	font-weight: bold;
+}
+.paragrafroTP {
+	float: left;
+	width: 95%;
+	margin-left: 3%;
+	margin-top: 10%;
+	font-size: 1.25vw;
+	text-align: center;
+}
+/*---------FIM BOTÕES PRINCIPAIS-----------*/
+
+/*---------INICIO BOTÃO DE AJUDA-----------*/
+/* posissionamento botão de ajuda */
+.icon-bar {
+position: absolute;
+top: 100%;
+right: 40%;
+width: 60%;
+}
+
+
+/* estilo botao de ajuda */
+.icon-bar a {
+  width: 50%;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 8px;
+  padding-left: 30px;
+  padding-right: 25px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 1.6vw;
+  border-radius: 6px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+    color: white;
+}
+
+.ajuda {
+  background: #6BBACC;
+
+      	border-radius: 8px;
+  	box-shadow: 7px 7px 10px -7px #387f6d;
+}
+/*---------FIM BOTÃO DE AJUDA-----------*/
+
+/*---------INICIO BOTÃO DE SAIR-----------*/
+/* posicionamento botao de sair */
+.icon-sair {
+  width: 50%;
+  position: absolute;
+  top: 100%;
+  right:-17.8%;
+}
+/* estilo botao de sair */
+.icon-sair a {
+	text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 8px;
+  padding-left: 30px;
+  padding-right: 25px;
+  transition: all 0.3s ease;
+  color:#4D4D4D;
+  font-size: 1.6vw;
+  width: 50%;
+}
+.icon-sair a:hover {
+  background-color: #000;
+    color: white;
+}
+.sair {
+  background: #CCCCCC;
+    	border-radius: 8px;
+  	box-shadow: 7px 7px 10px -7px #387f6d;
+}
+/*---------FIM BOTÃO DE SAIR-----------*/
+
+/*---------INICIO DA TELA DE AJUDA DA PÁGINA PRINCIPAL - SOLICITAÇÕES-----------*/
+.titulo1{
+	font-size: 1.8vw;
+	margin-top: -3%;
+	margin-left: 3%;
+}
+.titulo2, .titulo3{
+	font-size: 1.8vw;
+	margin-left: 3%;
+}
+.texto{
+	font-size: 1.2vw;
+	margin-left: 3%;
+	margin-top: -2.5%;
+}
+
+.icon-voltar{
+  width: 36%;
+  position: absolute;
+right: 8.6%;
+top:82.9%;
+}
+.icon-voltar a {
+	text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 8px;
+  padding-left: 30px;
+  padding-right: 25px;
+  transition: all 0.3s ease;
+  color:#4D4D4D;
+  font-size: 1.6vw;
+  width: 50%;
+}
+.icon-voltar a:hover {
+  background-color: #000;
+    color: white;
+}
+/*---------FIM DA TELA DE AJUDA DA PÁGINA PRINCIPAL - SOLICITAÇÕES-----------*/
+
+/*---------INICIO DA TELA SAIR - SOLICITAÇÕES-----------*/
+#areaBrancaSair{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	background-color:  var(--cor4);
+	width: 40vw;
+	height: 45vh;	
+	align-items: center;
+  	border-radius: 15px;
+  	box-shadow: -3.23px 12px 42px -20px #387f6d;
+	margin-top: 7%;
+}
+
+h1{
+	font-size: 2.3vw;
+	margin-top: 23%;
+}
+
+.icon-sim,.icon-nao{
+  width: 27%;
+  position: absolute;
+  margin-top: 33.3%;
+  margin-left: -13%;
+}
+.icon-nao{
+  margin-left: 33.5%;
+}
+.icon-sim a, .icon-nao a {
+	text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 8px;
+  padding-left: 30px;
+  padding-right: 25px;
+  transition: all 0.3s ease;
+  color:#4D4D4D;
+  font-size: 1.6vw;
+  width: 50%;
+}
+.icon-sim a:hover, .icon-nao a:hover {
+  background-color: #000;
+    color: white;
+}
+/*---------FIM DA TELA SAIR - SOLICITAÇÕES-----------*/
+/*-----------------------FIM DA TELA PRINCIPAL - SOLICITAÇÕES------------------------------*/
+
+
+/*-----------------------INICIO DA TELA DE NOVAS SOLICITAÇÕES------------------------------*/
+#pedidos{
+  border-style: solid;
+  border-width: 1px;
+  margin-top: -2%;
+  border-color: #D3D3D3;
+  box-shadow: 7px 7px 10px #cddfda;
+}
+#areaBrancaAcompanhar{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color:  var(--cor4);
+  width: 55vw;
+  height: 75vh; 
+  align-items: center;
+    border-radius: 15px;
+    box-shadow: -3.23px 12px 42px -20px #387f6d;
+  margin-top: 1%;
+}
+
+th {
+  font-size: 2.3vw;
+  height: 25px;
+  text-transform: capitalize;
+  padding: 10px;
+  user-select: none;
+  background-color: #A9D4D9;
+}
+
+td {
+  font-size: 1.3vw;
+  font-weight: lighter;
+  text-transform: capitalize;
+  padding: 10px;  
+  user-select: none;
+  border-top: 1px solid whitesmoke;
+}
+
+tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}    
+
+.btn-proximaPagina{
+margin-left: 87%;
+margin-top: -25%;
+}
+
+.btn-proximaPagina a{
+  text-decoration: none;
+}
+.icon-ajudaAcompanhar {
+  width: 35%;
+  position: absolute;
+margin-top: 41.75%;
+margin-left: -20%;
+}
+
+/* estilo botao de ajuda */
+.icon-ajudaAcompanhar a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 8px;
+  padding-left: 30px;
+  padding-right: 25px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 1.6vw;
+  width: 50%;
+  border-radius: 6px;
+}
+
+.icon-ajudaAcompanhar a:hover {
+  background-color: #000;
+    color: white;
+}
+
+.ajudaAcompanhar {
+  background: #6BBACC;
+        border-radius: 8px;
+    box-shadow: 7px 7px 10px -7px #387f6d;
+}
+
+
+.icon-voltarAcompanhar {
+  width: 35%;
+  position: absolute;
+right: 9.2%;
+top:87.8%;
+}
+
+/* estilo botao de ajuda */
+.icon-voltarAcompanhar a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 8px;
+  padding-left: 30px;
+  padding-right: 25px;
+  transition: all 0.3s ease;
+  color:#4D4D4D;
+  font-size: 1.6vw;
+  width: 50%;
+  border-radius: 6px;
+}
+
+.icon-voltarAcompanhar a:hover {
+  background-color: #000;
+    color: white;
+}
+
+.voltarAcompanhar {
+  background: #CCCCCC;
+
+        border-radius: 8px;
+    box-shadow: 7px 7px 10px -7px #387f6d;
+}
+
+.icon-pesquisarAcompanhar{
+  margin-top: -31%;
+  margin-left: 60.2%;
+  width: 4.7%;
+    background: #6BBACC;
+    border-radius: 8px;
+    box-shadow: 7px 7px 10px -7px #387f6d;
+}
+
+.icon-pesquisarAcompanhar img{
+  padding: 11%;
+}
+
+.icon-pesquisarAcompanhar a {
+  display: block;
+  transition: all 0.3s ease;
+  border-radius: 6px;
+}
+
+.icon-pesquisarAcompanhar a:hover {
+  background-color: #000;
+    color: white;
+}
+
+.btn-voltarPagina{
+margin-left: -73%;
+margin-top: -25%;
+}
+
+.btn-voltarPagina a{
+  text-decoration:none;
+}
+
+
+#areaBrancaSolicitar{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color:  var(--cor4);
+  width: 40vw;
+  height: 73vh; 
+  align-items: center;
+    border-radius: 15px;
+    box-shadow: -3.23px 12px 42px -20px #387f6d;
+  margin-top: 1%;
+}
+form {
+  display: flex;
+  flex-direction: column;/*os campos de login ficam alinhado centralizado*/
+  align-items: center;
+  width: 100%;
+}
+
+#titulo,#autor{
+    font-family: "APHont";
+    margin-top: -2.5%;
+  padding-left: 1%;
+  font-size: 1.7vw;
+  margin-bottom: 5%;
+  box-sizing: border-box;
+  height: 60px;
+  width: 125%;
+  border-radius: 5px;
+  background-color: #FFF;
+  border: 1.5px solid #575757;
+}
+
+#mensagem{
+    font-family: "APHont";
+    margin-top: -1.5%;
+  padding-left: 1%;
+  padding-top: 1%;
+  font-size: 1.3vw;
+    margin-bottom: 5%;
+  box-sizing: border-box;
+  height: 110px;
+  width: 125%;
+  border-radius: 5px;
+  background-color: #FFF;
+  border: 1.5px solid #575757;
+}
+
+label{
+    margin-left: -13%;
+    font-size: 1.25vw;
+}
+  select {
+  width: 84%;
+  padding: 12px 10px;
+  margin-left: -13%;
+  display: inline-block;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1.3vw;
+    font-family: "APHont";
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+
+  padding: 3%;
+  margin-left: 82%;
+  margin-top: -50%;
+    box-sizing: border-box;
+    width:auto;
+    border-radius: 8px;
+    box-shadow: 7px 7px 10px #cddfda;
+      background-color: #A8D4D9;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.btn{
+  font-size: 1.5vw;
+}
+.icon-ajudaNovaSolicitacao {
+  width: 9%;
+  position: absolute;
+top:30%;
+right: 21%;
+}
+.icon-ajudaNovaSolicitacao a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 15px;
+
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 1.6vw;
+  width: 50%;
+  border-radius: 6px;
+}
+
+.icon-ajudaNovaSolicitacao a:hover {
+  background-color: #000;
+    color: white;
+}
+
+.ajudaNovaSolicitacao {
+  background: #6BBACC;
+        border-radius: 8px;
+    box-shadow: 7px 7px 10px -7px #387f6d;
+}
+
+
+.icon-voltarNovaSolicitacao {
+  width: 20%;
+  position: absolute;
+right: 24.1%;
+top:85.9%;
+}
+
+/* estilo botao de ajuda */
+.icon-voltarNovaSolicitacao a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 8px;
+  padding-left: 30px;
+  padding-right: 25px;
+  transition: all 0.3s ease;
+  color:#4D4D4D;
+  font-size: 1.6vw;
+  width: 50%;
+  border-radius: 6px;
+}
+
+.icon-voltarNovaSolicitacao a:hover {
+  background-color: #000;
+    color: white;
+}
+
+.voltarNovaSolicitacao {
+  background: #CCCCCC;
+
+        border-radius: 8px;
+    box-shadow: 7px 7px 10px -7px #387f6d;
+}
+
+/* estilo botao de ajuda */
+.icon-enviarNovaSolicitacao {
+ width: 33%;
+  position: absolute;
+right: 37.1%;
+top:85.9%;
+}
+.icon-enviarNovaSolicitacao a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 8px;
+  padding-left: 30px;
+  padding-right: 25px;
+  transition: all 0.3s ease;
+  color:#fff;
+  font-size: 1.6vw;
+  width: 50%;
+  border-radius: 6px;
+}
+
+.icon-enviarNovaSolicitacao a:hover {
+  background-color: #000;
+    color: white;
+}
+
+.enviarNovaSolicitacao {
+  background: #1e4144;
+
+        border-radius: 8px;
+    box-shadow: 7px 7px 10px -7px #387f6d;
+}
+
+#areaBrancaSairSolicitacao{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color:  var(--cor4);
+  width: 45vw;
+  height: 45vh; 
+  align-items: center;
+    border-radius: 15px;
+    box-shadow: -3.23px 12px 42px -20px #387f6d;
+  margin-top: 7%;
+}
+
+#areaBrancaSairSolicitacao h1{
+  margin-top: 16.5%;
+  text-align: center;
+}
+
+.textoConfSolicitacao{
+  margin-top: -2%;
+  font-size: 1.7vw;
+}
+
+.icon-simSolicitacao,.icon-naoSolicitacao{
+  width: 27%;
+  position: absolute;
+  margin-top: 33.3%;
+  margin-left: -18%;
+}
+.icon-naoSolicitacao{
+  margin-left: 38.7%;
+}
+.icon-simSolicitacao a, .icon-naoSolicitacao a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 8px;
+  padding-left: 30px;
+  padding-right: 25px;
+  transition: all 0.3s ease;
+  color:#4D4D4D;
+  font-size: 1.6vw;
+  width: 50%;
+}
+.icon-simSolicitacao a:hover, .icon-naoSolicitacao a:hover {
+  background-color: #000;
+    color: white;
+}
+   /* ..................................................................................................... */
+/* ALTO CONTRASTE */
+.contrast,
+.contrast nav,
+.contrast div,
+.contrast li,
+.contrast ol,
+.contrast header,
+.contrast footer,
+.contrast section,
+.contrast main,
+.contrast aside,
+.contrast footer,
+.contrast article,
+.contrast div{
+    background: black !important;
+    color: white !important;
+}
+
+.contrast h1,
+.contrast h2,
+.contrast h3,
+.contrast h4,
+.contrast h5,
+.contrast h6,
+.contrast p,
+.contrast label,
+.contrast strong,
+.contrast em,
+.contrast cite,
+.contrast q,
+.contrast i,
+.contrast b,
+.contrast u,
+.contrast span {
+    color: white !important;
+}
+
+.contrast a{
+    color: yellow !important;
+}
+
+.contrast button,
+.contrast input[type=button],
+.contrast input[type=reset],
+.contrast input[type=submit] {
+    background: black !important;
+    color: yellow !important;
+    border: none !important;
+}
+
+.contrast input[type=text],
+.contrast input[type=password],
+.contrast input[type=url],
+.contrast input[type=search],
+.contrast input[type=email],
+.contrast input[type=tel],
+.contrast input[type=date],
+.contrast input[type=month],
+.contrast input[type=week],
+.contrast input[type=datetime],
+.contrast input[type=datetime-local],
+.contrast textarea,
+.contrast input[type=number] {
+    background: black !important;
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+.contrast img.on-contrast-force-gray {
+    filter: grayscale(100%) contrast(120%);
+}
+
+.contrast img.on-contrast-force-white {
+    filter: brightness(0) invert(1);
+}

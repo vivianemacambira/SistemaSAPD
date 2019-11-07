@@ -1,0 +1,16 @@
+/* Aplicação do box-sizing em toda estrutura html para 'zerar' as dimensões (width e height) dos elementos da página */
+html {
+   box-sizing: border-box;
+}
+ 
+/* Todos os elementos da página (*) e suas pseudo-classes (before e after) herdarão o box-sizing do seletor-pai, no caso, 'html'*/
+*,*:before,*:after{
+   box-sizing: inherit;
+} 
+/* Estilos gerais da página */
+body{
+   background: #f6f6f6;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+   margin: 0;
+   padding: 0;
+}
