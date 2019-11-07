@@ -5,8 +5,8 @@
 }
 
 @font-face {
-     font-family: "APHont";
-     src: url(APHont.ttf);
+     font-family: APHont;
+     src: url('APHont.ttf');
 }
 
 body{
