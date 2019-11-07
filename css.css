@@ -4,6 +4,11 @@
 	--cor4:#ffffff;
 }
 
+@font-face {
+     font-family: "APHont";
+     src: url(APHont.ttf);
+}
+
 body{
 	background: var(--cor1);
 	display: flex;
