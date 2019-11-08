@@ -528,10 +528,10 @@ label{
   font-size: 1.5vw;
 }
 .icon-ajudaNovaSolicitacao {
-  width: 9%;
+  width: 15%;
   position: absolute;
-top:30%;
-right: 21%;
+top:25%;
+right: 0%;
 }
 .icon-ajudaNovaSolicitacao a {
   text-decoration: none;
@@ -562,7 +562,7 @@ right: 21%;
   width: 20%;
   position: absolute;
 right: 24.1%;
-top:85.9%;
+top:100%;
 }
 
 /* estilo botao de ajuda */
@@ -597,7 +597,7 @@ top:85.9%;
  width: 33%;
   position: absolute;
 right: 37.1%;
-top:85.9%;
+top:100%;
 }
 .icon-enviarNovaSolicitacao a {
   text-decoration: none;
