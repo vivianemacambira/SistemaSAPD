@@ -246,57 +246,7 @@ top:100%;
 }
 /*---------FIM DA TELA DE AJUDA DA PÁGINA PRINCIPAL - SOLICITAÇÕES-----------*/
 
-/*---------INICIO DA TELA SAIR - SOLICITAÇÕES-----------*/
-#areaBrancaSair{
-	display: flex;
-	flex-direction: column;
-	position: relative;
-	background-color:  var(--cor4);
-	width: 40vw;
-	height: 45vh;	
-	align-items: center;
-  	border-radius: 15px;
-  	box-shadow: -3.23px 12px 42px -20px #387f6d;
-	margin-top: 7%;
-}
 
-h1{
-	font-size: 2.3vw;
-	margin-top: 23%;
-}
-
-.icon-sim,.icon-nao{
-  width: 60%;
-  position: absolute;
-  top:100%;
-  right: 40%;
-}
-
-.icon-sim a, .icon-nao a {
-	text-decoration: none;
-  display: block;
-  text-align: center;
-  padding: 8px;
-  padding-left: 30px;
-  padding-right: 25px;
-  transition: all 0.3s ease;
-  color:#4D4D4D;
-  font-size: 1.6vw;
-  width: 50%;
-}
-
-.icon-nao {
-  right: -19.7%;
-}
-
-.icon-nao a{
-  color: white;
-}
-.icon-sim a:hover, .icon-nao a:hover {
-  background-color: #000;
-    color: white;
-}
-/*---------FIM DA TELA SAIR - SOLICITAÇÕES-----------*/
 /*-----------------------FIM DA TELA PRINCIPAL - SOLICITAÇÕES------------------------------*/
 
 
